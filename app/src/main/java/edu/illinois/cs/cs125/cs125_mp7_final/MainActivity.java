@@ -182,7 +182,7 @@ public class MainActivity extends AppCompatActivity {
         } else if (tempAsInt <= 75) {
             return "T-Shirt/Jacket, Dress, Cap, Sneakers/Leather Shoes, Jeans/Pants";
         }
-        return "T-Shirt/Tank Top, Shorts/Skirts, Sun Glasses, Sandals, Caps, Active Wear/Swim Wear";
+        return "T-Shirt/Tank Top, Shorts/Skirts, Sun Glasses, Sandals, Caps, Active-Wear/Swim-Wear";
     }
     String toDo(final double temp) {
         int tempAsInt = (int) temp;
